@@ -1,0 +1,27 @@
+body {
+  background: #000;
+  color: #fff;
+  text-align: center;
+  padding: 5%;
+  font-family: 'Lato', sans-serif;
+  font-size: 14px;
+
+}
+img {
+  width: 200px;
+  margin-bottom: 20px;
+  margin-top: 20px;
+}
+.about-name {
+  font-size: 46px;
+  font-weight: bold;
+  margin-bottom: 30px;
+  font-family: 'Mali', cursive;
+
+}
+
+.about {
+  max-width: 800px;
+  margin-left: auto;
+  margin-right: auto;
+}
