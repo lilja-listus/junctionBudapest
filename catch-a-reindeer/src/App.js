@@ -14,12 +14,12 @@ class App extends Component {
       query:'',
       event: null
     }
+
   }
 //Search
-
+search(query){
   var client = algoliasearch('OAZAQYYD4Y', 'f418d0b8ddf372e0172e85888b980bfd');
-  var index = client.initIndex('indexName');
-
+  var index = client.initIndex('junction_conferences');
 // only query string
 index.search(
   function searchDone(err, content) {
@@ -32,7 +32,7 @@ index.search(
 // with params
 index.search(
   {
-    query: 'query string',
+    query: query,
     attributesToRetrieve: ['name', 'start_date', 'end_date', 'links', 'location'],
     hitsPerPage: 50,
   },
@@ -58,11 +58,14 @@ index.search(
               onChange={event => {this.setState({query: event.target.value})}}
               onKeyPress={event => {
                 if(event.key === 'Enter'){
-                  this.search();
+                  this.search(event.target.value);
                 }
               }}
               />
-              <InputGroup.Addon onClick={() =>this.search()}>
+              <InputGroup.Addon onClick={event => {this.setState({query: event.target.value}); this.search(event.target.value)}}>
+
+
+
                 <Glyphicon glyph="search"></Glyphicon>
               </InputGroup.Addon>
             </InputGroup>
