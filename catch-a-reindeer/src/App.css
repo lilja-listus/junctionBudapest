@@ -10,3 +10,8 @@ body{
 .App-title{
   font-size: 26px;
 }
+
+#hits-container{
+  text-align: center;
+
+}

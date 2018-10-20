@@ -22,20 +22,26 @@ search(query){
 const app = document.getElementById("hits-container");
 var client = algoliasearch('OAZAQYYD4Y', 'f418d0b8ddf372e0172e85888b980bfd');
 var index = client.initIndex('junction_conferences');
-
+var events = new Array();
 index.search(query).then(result=>{
   const hits = result.hits;
   hits.forEach(function(element) {
   //console.log(element);
   var name = element.name;
-  var dates = element.start_date + '-' + element.end_date;
+  var dates = element.start_date + ' - ' + element.end_date;
   var links = element.links;
-  var location = element.location.country + ", " + element.location.city;
-  var event = name + ": " + dates + " " + " learn more at: "+links+ " location: "+location;
-  console.log(event);
+  var location = element.location.country.eng + ", " + element.location.city.eng;
+  var event = "<em>" + name + "</em>" +
+              " " + dates + " " +  "</br>" +
+              " learn more at: "+ "<a>" + links + "</a>" +
+              + "location: " + "</br>" + location;
+  events.push(event);
+  events.push("</br>");
+  //console.log(event);
 });
 
-app.innerHTML = hits.join("");
+console.log(events);
+  app.innerHTML = events;
 
 
 //  var one = hits[0];
