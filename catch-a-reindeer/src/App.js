@@ -1,8 +1,6 @@
 import React, { Component } from 'react';
 import { FormGroup, FormControl, InputGroup, Glyphicon, Button } from 'react-bootstrap';
 import './App.css';
-import Event from './Event';
-import Map from './Map';
 import algoliasearch from 'algoliasearch';
 
 class App extends Component {
@@ -41,7 +39,7 @@ index.search(query).then(result=>{
   var event = "<em>" + name + "</em>" +
               " (" + dates + ") " +  "</br>" +
               " learn more at: "+ listOfLinks + "</br>" +
-              "location: "  + location;
+              "location: "  + location + "</br>";
   events.push(event);
   events.push("</br>");
   //console.log(event);
@@ -74,8 +72,6 @@ console.log(events);
               />
               <InputGroup.Addon onClick={event => {this.setState({query: event.target.value}); this.search(event.target.value)}}>
 
-
-
                 <Glyphicon glyph="search"></Glyphicon>
               </InputGroup.Addon>
             </InputGroup>
@@ -86,20 +82,13 @@ console.log(events);
 
             <div>
             <p>Open the map of events </p>
-            <Button bsStyle="primary">Map</Button>
+            <form action="/about.html" >
+            <Button bsStyle="primary" type="submit"> About the Project</Button>
+            </form> 
+
 
             </div>
 
-      {   this.state.event !== null
-          ?
-          <div>
-          <Event
-            event={this.state.event}
-            />
-
-          </div>
-          : <div> </div>
-        }
       </div>
     );
   }
