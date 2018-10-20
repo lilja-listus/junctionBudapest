@@ -5,8 +5,16 @@
         "end_date" : "2019-04-26",
         "links" : [],
         "location" : {
-            "city" : "ATVIE", 
-            "country" : "AT"
+            "city" : {
+                "eng" : "Vienna",
+                "fin" : "Wien",
+                "hun" : "Bécs"
+            }, 
+            "country" : {
+                "eng" : "Austria",
+                "fin" : "Itävalta",
+                "hun" : "Ausztria"
+            }
         }
     },
     {
@@ -17,8 +25,16 @@
             "https://ifusco.ut.ee/"
         ],
         "location" : {
-            "city" : "EETAY", 
-            "country" : "EE"
+            "city" : {
+                "eng" : "Tartu",
+                "fin" : "Tartto",
+                "hun" : "Tartu"
+            }, 
+            "country" : {
+                "eng" : "Estonia",
+                "fin" : "Viro",
+                "hun" : "Észtország"
+            }
         }
     },
     {
@@ -29,8 +45,16 @@
             "https://ifusco2017.pl"
         ],
         "location" : {
-            "city" : "PLWAW", 
-            "country" : "PL"
+            "city" : {
+                "eng" : "Warsaw",
+                "fin" : "Varsova",
+                "hun" : "Varsó"
+            }, 
+            "country" : {
+                "eng" : "Poland",
+                "fin" : "Puola",
+                "hun" : "Lengyelország"
+            }
         }
     },
     {
@@ -41,8 +65,16 @@
             "https://mariuveren.wordpress.com/2016/08/19/ifusco-2016-fin/" 
         ],
         "location" : {
-            "city" : "FIHEL", 
-            "country" : "FI"
+            "city" : {
+                "eng" : "Helsinki",
+                "fin" : "Helsinki",
+                "hun" : "Helsinki"
+            }, 
+            "country" : {
+                "eng" : "Finland",
+                "fin" : "Suomi",
+                "hun" : "Finnország"
+            }
         }
     },
     {
@@ -51,8 +83,16 @@
         "end_date" : "1984-05-27",
         "links" : [],
         "location" : {
-            "city" : "DEGOE",
-            "country" : "DE"
+            "city" : {
+                "eng" : "Göttingen",
+                "fin" : "Göttingen",
+                "hun" : "Göttingen"
+            },
+            "country" : {
+                "eng" : "Germany",
+                "fin" : "Saksa",
+                "hun" : "Németország"
+            }
         }
     },
 
@@ -65,8 +105,16 @@
             "https://www.infuse.finnougristik.uni-muenchen.de/winter-schools/vienna-2018/index.html"
         ],
         "location" : {
-            "city" : "ATVIE",
-            "country" : "AT"
+            "city" : {
+                "eng" : "Vienna",
+                "fin" : "Wien",
+                "hun" : "Bécs"
+            }, 
+            "country" : {
+                "eng" : "Austria",
+                "fin" : "Itävalta",
+                "hun" : "Ausztria"
+            }
         }
     },
     {
@@ -77,8 +125,16 @@
             "https://www.infuse.finnougristik.uni-muenchen.de/winter-schools/turku-2017/index.html"
         ],
         "location" : {
-            "city" : "FITKU",
-            "country" : "FI"
+            "city" : {
+                "eng" : "Turku",
+                "fin" : "Turku",
+                "hun" : "Turku"
+            },
+            "country" : {
+                "eng" : "Finland",
+                "fin" : "Suomi",
+                "hun" : "Finnország"
+            }
         }
     },
     {
@@ -89,8 +145,16 @@
             "https://www.infuse.finnougristik.uni-muenchen.de/winter-schools/tartu-2016/index.html"
         ],
         "location" : {
-            "city" : "FITAY",
-            "country" : "EE"
+            "city" : {
+                "eng" : "Tartu",
+                "fin" : "Tartto",
+                "hun" : "Tartu"
+            },
+            "country" : {
+                "eng" : "Estonia",
+                "fin" : "Viro",
+                "hun" : "Észtország"
+            }
         }
     }
 ]

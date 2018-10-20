@@ -1,0 +1,39 @@
+[
+    {
+        "type" : "synonym",
+        "synonyms" : [
+            "Turku",
+            "Abo",
+            "Åbo"
+        ]
+    },
+    {
+        "type" : "synonym",
+        "synonyms" : [
+            "Helsinki",
+            "Helsingfors"
+        ]
+    },
+    {
+        "type" : "synonym",
+        "synonyms" : [
+            "Wien",
+            "Vienna"
+        ]
+    },
+    {
+        "type" : "synonym",
+        "synonyms" : [
+            "Warsaw",
+            "Varsó",
+            "Varsova"
+        ]
+    },
+    {
+        "type" : "synonym",
+        "synonyms" : [
+            "Tartu",
+            "Tartto"
+        ]
+    }
+]
