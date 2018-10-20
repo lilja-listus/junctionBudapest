@@ -77,14 +77,13 @@ console.log(events);
             </InputGroup>
             </FormGroup>
             <div className="Greeting">
-            <p> Welcome to the place where you can find info about all upcoming events in the Finno-Ugric world </p>
+            <p id="welcome-text"> Welcome to the place where you can find info about all upcoming events in the Finno-Ugric world </p>
             </div>
 
             <div>
-            <p>Open the map of events </p>
             <form action="/about.html" >
             <Button bsStyle="primary" type="submit"> About the Project</Button>
-            </form> 
+            </form>
 
 
             </div>
