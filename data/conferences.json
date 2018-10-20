@@ -1,6 +1,6 @@
 [
     {
-        "name" : "IFUSCO 2019",
+        "name" : "IFUSCO XXXV",
         "start_date" : "2019-04-22",
         "end_date" : "2019-04-26",
         "links" : [],
@@ -9,7 +9,7 @@
                 "eng" : "Vienna",
                 "fin" : "Wien",
                 "hun" : "Bécs"
-            }, 
+            },
             "country" : {
                 "eng" : "Austria",
                 "fin" : "Itävalta",
@@ -18,7 +18,7 @@
         }
     },
     {
-        "name" : "IFUSCO 2018",
+        "name" : "IFUSCO XXXIV",
         "start_date" : "2018-05-02",
         "end_date" : "2018-05-05",
         "links" : [
@@ -29,7 +29,7 @@
                 "eng" : "Tartu",
                 "fin" : "Tartto",
                 "hun" : "Tartu"
-            }, 
+            },
             "country" : {
                 "eng" : "Estonia",
                 "fin" : "Viro",
@@ -38,7 +38,7 @@
         }
     },
     {
-        "name" : "IFUSCO 2017",
+        "name" : "IFUSCO XXXIII",
         "start_date" : "2017-09-18",
         "end_date" : "2017-09-22",
         "links" : [
@@ -49,7 +49,7 @@
                 "eng" : "Warsaw",
                 "fin" : "Varsova",
                 "hun" : "Varsó"
-            }, 
+            },
             "country" : {
                 "eng" : "Poland",
                 "fin" : "Puola",
@@ -58,18 +58,18 @@
         }
     },
     {
-        "name" : "IFUSCO 2016",
+        "name" : "IFUSCO XXXII",
         "start_date" : "2016-09-15",
         "end_date" : "2016-09-18",
-        "links" : [ 
-            "https://mariuveren.wordpress.com/2016/08/19/ifusco-2016-fin/" 
+        "links" : [
+            "https://mariuveren.wordpress.com/2016/08/19/ifusco-2016-fin/"
         ],
         "location" : {
             "city" : {
                 "eng" : "Helsinki",
                 "fin" : "Helsinki",
                 "hun" : "Helsinki"
-            }, 
+            },
             "country" : {
                 "eng" : "Finland",
                 "fin" : "Suomi",
@@ -78,7 +78,139 @@
         }
     },
     {
-        "name" : "IFUSCO 1984",
+        "name" : "IFUSCO XXXI",
+        "start_date" : "2015-04-16",
+        "end_date" : "2015-04-19",
+        "links" : [
+          "http://ifusco2015.pte.hu/index.php/language/en/"
+        ],
+        "location" : {
+            "city" : {
+                "eng" : "Pécs",
+                "fin" : "Pécs",
+                "hun" : "Pécs"
+            },
+            "country" : {
+                "eng" : "Hungary",
+                "fin" : "Unkari",
+                "hun" : "Magarország"
+            }
+        }
+    },
+    {
+        "name" : "IFUSCO XXX",
+        "start_date" : "2014-04-09",
+        "end_date" : "2014-04-11",
+        "links" : [
+          "https://www.uni-goettingen.de/de/english/474746.html"
+        ],
+        "location" : {
+            "city" : {
+                "eng" : "Göttingen",
+                "fin" : "Göttingen",
+                "hun" : "Göttingen"
+            },
+            "country" : {
+                "eng" : "Germany",
+                "fin" : "Saksa",
+                "hun" : "Németország"
+            }
+        }
+    },
+    {
+        "name" : "IFUSCO XXIX",
+        "start_date" : "2013-05-06",
+        "end_date" : "2013-05-08",
+        "links" : [
+          "http://finnugor.elte.hu/index.php?q=29ifuszikti"
+        ],
+        "location" : {
+            "city" : {
+                "eng" : "Syktyvkar",
+                "fin" : "Syktyvkar",
+                "hun" : "Sziktivkar"
+            },
+            "country" : {
+                "eng" : "Russian Federation",
+                "fin" : "Venäjän federaatio",
+                "hun" : "Oroszországi Föderáció"
+            }
+        }
+    },
+    {
+        "name" : "IFUSCO XXVIII",
+        "start_date" : "2012-05-08",
+        "end_date" : "2012-05-11",
+        "links" : [
+        ],
+        "location" : {
+            "city" : {
+                "eng" : "Tartu",
+                "fin" : "Tartto",
+                "hun" : "Tartu"
+            },
+            "country" : {
+                "eng" : "Estonia",
+                "fin" : "Viro",
+                "hun" : "Észtország"
+            }
+        }
+    },
+    {
+        "name" : "IFUSCO IV",
+        "start_date" : "1987-05-24",
+        "end_date" : "1987-05-28",
+        "links" : [],
+        "location" : {
+            "city" : {
+                "eng" : "Budapest",
+                "fin" : "Budapest",
+                "hun" : "Budapest"
+            },
+            "country" : {
+                "eng" : "Hungary",
+                "fin" : "Unkari",
+                "hun" : "Magarország"
+            }
+
+    {
+        "name" : "IFUSCO III",
+        "start_date" : "1986",
+        "end_date" : "1986",
+        "links" : [],
+        "location" : {
+            "city" : {
+                "eng" : "Groningen",
+                "fin" : "Groningen",
+                "hun" : "Groningen"
+            },
+            "country" : {
+                "eng" : "The Netherlands",
+                "fin" : "Alankomaat",
+                "hun" : "Hollandia"
+            }
+        }
+    },
+    {
+        "name" : "IFUSCO II",
+        "start_date" : "1985",
+        "end_date" : "1985",
+        "links" : [],
+        "location" : {
+            "city" : {
+                "eng" : "Hamburg",
+                "fin" : "Hampuri",
+                "hun" : "Hamburg"
+            },
+            "country" : {
+                "eng" : "Germany",
+                "fin" : "Saksa",
+                "hun" : "Németország"
+            }
+        }
+    },
+    {
+        "name" : "IFUSCO I",
         "start_date" : "1984-05-25",
         "end_date" : "1984-05-27",
         "links" : [],
@@ -109,7 +241,7 @@
                 "eng" : "Vienna",
                 "fin" : "Wien",
                 "hun" : "Bécs"
-            }, 
+            },
             "country" : {
                 "eng" : "Austria",
                 "fin" : "Itävalta",
