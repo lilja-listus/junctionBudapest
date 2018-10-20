@@ -1,21 +1,37 @@
 [
     {
+        "name" : "IFUSCO 2019",
+        "start_date" : "2019-04-22",
+        "end_date" : "2019-04-26",
+        "links" : [],
+        "location" : {
+            "city" : "ATVIE", 
+            "country" : "AT"
+        }
+    },
+    {
         "name" : "IFUSCO 2018",
         "start_date" : "2018-05-02",
         "end_date" : "2018-05-05",
         "links" : [
             "https://ifusco.ut.ee/"
         ],
-        "location" : {"city" : "TAY", "country" : "EE"}
+        "location" : {
+            "city" : "EETAY", 
+            "country" : "EE"
+        }
     },
     {
         "name" : "IFUSCO 2017",
         "start_date" : "2017-09-18",
         "end_date" : "2017-09-22",
         "links" : [
-            "ifusco2017.pl"
+            "https://ifusco2017.pl"
         ],
-        "location" : {"city" : "WAW", "country" : "PL"}
+        "location" : {
+            "city" : "PLWAW", 
+            "country" : "PL"
+        }
     },
     {
         "name" : "IFUSCO 2016",
@@ -24,6 +40,57 @@
         "links" : [ 
             "https://mariuveren.wordpress.com/2016/08/19/ifusco-2016-fin/" 
         ],
-        "location" : {"city" : "HEL", "country" : "FI"}
+        "location" : {
+            "city" : "FIHEL", 
+            "country" : "FI"
+        }
+    },
+    {
+        "name" : "IFUSCO 1984",
+        "start_date" : "1984-05-25",
+        "end_date" : "1984-05-27",
+        "links" : [],
+        "location" : {
+            "city" : "DEGOE",
+            "country" : "DE"
+        }
+    },
+
+
+    {
+        "name" : "The 6th International Winter School for Finno-Ugric Studies",
+        "start_date" : "2018-02-26",
+        "end_date" : "2018-03-03",
+        "links" : [
+            "https://www.infuse.finnougristik.uni-muenchen.de/winter-schools/vienna-2018/index.html"
+        ],
+        "location" : {
+            "city" : "ATVIE",
+            "country" : "AT"
+        }
+    },
+    {
+        "name" : "The 5th International Winter School for Finno-Ugric Studies",
+        "start_date" : "2017-02-27",
+        "end_date" : "2017-03-04",
+        "links" : [
+            "https://www.infuse.finnougristik.uni-muenchen.de/winter-schools/turku-2017/index.html"
+        ],
+        "location" : {
+            "city" : "FITKU",
+            "country" : "FI"
+        }
+    },
+    {
+        "name" : "The 4th International Winter School for Finno-Ugric Studies",
+        "start_date" : "2016-02-01",
+        "end_date" : "2016-02-06",
+        "links" : [
+            "https://www.infuse.finnougristik.uni-muenchen.de/winter-schools/tartu-2016/index.html"
+        ],
+        "location" : {
+            "city" : "FITAY",
+            "country" : "EE"
+        }
     }
 ]
