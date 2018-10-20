@@ -1,0 +1,6 @@
+ - program which keeps track of what communication services a user's contacts
+   have used most recently, and then forwards messages to each contact on the
+   service where they are most likely to see the message soonest. 
+
+ - Something for one of the challenges? Transaction visualization sounds cool,
+   if we can figure out how to make it work. 
