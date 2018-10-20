@@ -3,6 +3,7 @@ import { FormGroup, FormControl, InputGroup, Glyphicon, Button } from 'react-boo
 import './App.css';
 import Event from './Event';
 import Map from './Map';
+import algoliasearch from 'algoliasearch';
 
 class App extends Component {
 
@@ -15,33 +16,32 @@ class App extends Component {
     }
   }
 //Search
-search(){
-  const BASE_URL = 'https://google.com?';
-  let FETCH_URL = `${BASE_URL}q=${this.state.query}&type=artist&limit=1`;
 
+  var client = algoliasearch('OAZAQYYD4Y', 'f418d0b8ddf372e0172e85888b980bfd');
+  var index = client.initIndex('indexName');
 
- var myOptions = {
-   method: 'GET',
- };
+// only query string
+index.search(
+  function searchDone(err, content) {
+    if (err) throw err;
 
-/*
-  fetch(FETCH_URL, myOptions).then(response => response.json())
-   .then(json => {
-     const artist = json.artists.items[0];
-     this.setState({artist});
+    console.log(content.hits);
+  }
+);
 
+// with params
+index.search(
+  {
+    query: 'query string',
+    attributesToRetrieve: ['name', 'start_date', 'end_date', 'links', 'location'],
+    hitsPerPage: 50,
+  },
+  function searchDone(err, content) {
+    if (err) throw err;
 
-  FETCH_URL = `${ALBUM_URL}${artist.id}/top-tracks?country=US&`
-  fetch(FETCH_URL, myOptions)
-     .then(response => response.json())
-     .then(json => {
-       console.log('artists top tracks', json);
-       const { tracks } = json;
-       this.setState({tracks});
-     })
-
-   });
-*/
+    console.log(content.hits);
+  }
+);
 }
 
   render() {
