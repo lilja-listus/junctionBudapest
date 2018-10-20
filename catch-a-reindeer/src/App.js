@@ -18,30 +18,31 @@ class App extends Component {
   }
 //Search
 search(query){
-  var client = algoliasearch('OAZAQYYD4Y', 'f418d0b8ddf372e0172e85888b980bfd');
-  var index = client.initIndex('junction_conferences');
-// only query string
-index.search(
-  function searchDone(err, content) {
-    if (err) throw err;
 
-    console.log(content.hits);
-  }
-);
+const app = document.getElementById("hits-container");
+var client = algoliasearch('OAZAQYYD4Y', 'f418d0b8ddf372e0172e85888b980bfd');
+var index = client.initIndex('junction_conferences');
 
-// with params
-index.search(
-  {
-    query: query,
-    attributesToRetrieve: ['name', 'start_date', 'end_date', 'links', 'location'],
-    hitsPerPage: 50,
-  },
-  function searchDone(err, content) {
-    if (err) throw err;
+index.search(query).then(result=>{
+  const hits = result.hits;
+  hits.forEach(function(element) {
+  //console.log(element);
+  var name = element.name;
+  var dates = element.start_date + '-' + element.end_date;
+  var links = element.links;
+  var location = element.location.country + ", " + element.location.city;
+  var event = name + ": " + dates + " " + " learn more at: "+links+ " location: "+location;
+  console.log(event);
+});
 
-    console.log(content.hits);
-  }
-);
+app.innerHTML = hits.join("");
+
+
+//  var one = hits[0];
+  //const hits = result.hits.map(hit => <p>t</p>);
+  //console.log(name);
+});
+
 }
 
   render() {
