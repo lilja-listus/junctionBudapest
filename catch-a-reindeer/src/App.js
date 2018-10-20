@@ -46,6 +46,9 @@ index.search(query).then(result=>{
 });
 
 console.log(events);
+
+  events.push("<div><img src='algolia-logo.svg'></img></div>");
+
   app.innerHTML = events.join("");
 
 });
