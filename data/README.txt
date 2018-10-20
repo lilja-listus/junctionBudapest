@@ -21,3 +21,16 @@ for them, since that appears to be the norm. Endpoint URLs for fetching city
 names given codes are forthcoming (it might be okay to just display the codes
 in the search results, since there will be limited space in each row, but it
 would be nice to see at least the city name in human-readable format). 
+
+
+I haven't added latitudes and longitudes to the dataset yet, but plan on doing
+so at some point. 
+
+
+
+ - GCP Database
+
+Database name is "junction_budapest_2018", instance is
+"junction-budapest-2018". If you need the password, I (kechpaja) can give it to 
+you through a more secure channel, but I'd rather not have it checked into
+source control. 
