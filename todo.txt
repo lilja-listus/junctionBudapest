@@ -1,0 +1,1 @@
+Add latitudes and longitudes to Angolia dataset

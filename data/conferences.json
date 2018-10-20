@@ -1,0 +1,29 @@
+[
+    {
+        "name" : "IFUSCO 2018",
+        "start_date" : "2018-05-02",
+        "end_date" : "2018-05-05",
+        "links" : [
+            "https://ifusco.ut.ee/"
+        ],
+        "location" : {"city" : "TAY", "country" : "EE"}
+    },
+    {
+        "name" : "IFUSCO 2017",
+        "start_date" : "2017-09-18",
+        "end_date" : "2017-09-22",
+        "links" : [
+            "ifusco2017.pl"
+        ],
+        "location" : {"city" : "WAW", "country" : "PL"}
+    },
+    {
+        "name" : "IFUSCO 2016",
+        "start_date" : "2016-09-15",
+        "end_date" : "2016-09-18",
+        "links" : [ 
+            "https://mariuveren.wordpress.com/2016/08/19/ifusco-2016-fin/" 
+        ],
+        "location" : {"city" : "HEL", "country" : "FI"}
+    }
+]
