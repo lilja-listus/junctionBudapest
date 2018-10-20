@@ -14,7 +14,6 @@ class App extends Component {
       query:'',
       event: null
     }
-
   }
 //Search
 search(query){
@@ -30,23 +29,27 @@ index.search(query).then(result=>{
   var name = element.name;
   var dates = element.start_date + ' - ' + element.end_date;
   var links = element.links;
+  var listOfLinks= "";
+  links.forEach(function(link){
+    if (link !== ""){
+      listOfLinks+= "<a>" + link + "</a>" +  ", ";
+    }
+  });
+
+
   var location = element.location.country.eng + ", " + element.location.city.eng;
   var event = "<em>" + name + "</em>" +
-              " " + dates + " " +  "</br>" +
-              " learn more at: "+ "<a>" + links + "</a>" +
-              + "location: " + "</br>" + location;
+              " (" + dates + ") " +  "</br>" +
+              " learn more at: "+ listOfLinks + "</br>" +
+              "location: "  + location;
   events.push(event);
   events.push("</br>");
   //console.log(event);
 });
 
 console.log(events);
-  app.innerHTML = events;
+  app.innerHTML = events.join("");
 
-
-//  var one = hits[0];
-  //const hits = result.hits.map(hit => <p>t</p>);
-  //console.log(name);
 });
 
 }
