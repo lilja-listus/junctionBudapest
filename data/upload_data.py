@@ -5,7 +5,7 @@ from sys import argv
 
 import json
 
-if len(argv) != 3:
+if len(argv) != 5:
     print("Usage: ./upload_data.py <app ID> <root API key> <index name> <records JSON>")
     exit(1)
 
