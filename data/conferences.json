@@ -157,6 +157,82 @@
         }
     },
     {
+        "name" : "IFUSCO XII",
+        "start_date" : "1995",
+        "end_date" : "1995",
+        "links" : [
+        ],
+        "location" : {
+            "city" : {
+                "eng" : "Szeged",
+                "fin" : "Szeged",
+                "hun" : "Szeged"
+            },
+            "country" : {
+                "eng" : "Hungary",
+                "fin" : "Unkari",
+                "hun" : "Magarország"
+            }
+        }
+    },
+    {
+        "name" : "IFUSCO XI",
+        "start_date" : "1994",
+        "end_date" : "1994",
+        "links" : [
+        ],
+        "location" : {
+            "city" : {
+                "eng" : "Poznań",
+                "fin" : "Poznań",
+                "hun" : "Poznań"
+            },
+            "country" : {
+                "eng" : "Poland",
+                "fin" : "Puola",
+                "hun" : "Lengyelország"
+            }
+        }
+    },
+    {
+        "name" : "IFUSCO X",
+        "start_date" : "1993",
+        "end_date" : "1993",
+        "links" : [
+        ],
+        "location" : {
+            "city" : {
+                "eng" : "Prague",
+                "fin" : "Praha",
+                "hun" : "Prága"
+            },
+            "country" : {
+                "eng" : "Czech Republic",
+                "fin" : "Tšekki",
+                "hun" : "Csehország"
+            }
+        }
+    },
+    {
+        "name" : "IFUSCO IX",
+        "start_date" : "1992",
+        "end_date" : "1992",
+        "links" : [
+        ],
+        "location" : {
+            "city" : {
+                "eng" : "Munich",
+                "fin" : "München",
+                "hun" : "München"
+            },
+            "country" : {
+                "eng" : "Germany",
+                "fin" : "Saksa",
+                "hun" : "Németország"
+            }
+        }
+    },
+    {
         "name" : "IFUSCO VIII",
         "start_date" : "1991-05-19",
         "end_date" : "1991-05-23",
