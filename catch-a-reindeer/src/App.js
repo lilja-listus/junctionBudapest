@@ -64,7 +64,7 @@ console.log(events);
           <InputGroup>
             <FormControl
               type="text"
-              placeholder="Search for an Event"
+              placeholder="Type in a name, city, country, year etc."
               value = {this.state.query}
               onChange={event => {this.setState({query: event.target.value})}}
               onKeyPress={event => {

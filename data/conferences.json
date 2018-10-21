@@ -157,6 +157,82 @@
         }
     },
     {
+        "name" : "IFUSCO VIII",
+        "start_date" : "1991-05-19",
+        "end_date" : "1991-05-23",
+        "links" : [
+        ],
+        "location" : {
+            "city" : {
+                "eng" : "Greifswald",
+                "fin" : "Greifswald",
+                "hun" : "Greifswald"
+            },
+            "country" : {
+                "eng" : "Germany",
+                "fin" : "Saksa",
+                "hun" : "Németország"
+            }
+        }
+    },
+    {
+        "name" : "IFUSCO VII",
+        "start_date" : "1990",
+        "end_date" : "1990",
+        "links" : [
+        ],
+        "location" : {
+            "city" : {
+                "eng" : "Tartu",
+                "fin" : "Tartto",
+                "hun" : "Tartu"
+            },
+            "country" : {
+                "eng" : "Estonia",
+                "fin" : "Viro",
+                "hun" : "Észtország"
+            }
+        }
+    },
+    {
+        "name" : "IFUSCO VI",
+        "start_date" : "1989-05-14",
+        "end_date" : "1989-05-18",
+        "links" : [
+        ],
+        "location" : {
+            "city" : {
+                "eng" : "Vienna",
+                "fin" : "Wien",
+                "hun" : "Bécs"
+            },
+            "country" : {
+                "eng" : "Austria",
+                "fin" : "Itävalta",
+                "hun" : "Ausztria"
+            }
+        }
+    },
+    {
+        "name" : "IFUSCO V",
+        "start_date" : "1988-05-22",
+        "end_date" : "1988-05-26",
+        "links" : [
+        ],
+        "location" : {
+            "city" : {
+                "eng" : "Helsinki",
+                "fin" : "Helsinki",
+                "hun" : "Helsinki"
+            },
+            "country" : {
+                "eng" : "Finland",
+                "fin" : "Suomi",
+                "hun" : "Finnország"
+            }
+        }
+    },
+    {
         "name" : "IFUSCO IV",
         "start_date" : "1987-05-24",
         "end_date" : "1987-05-28",
