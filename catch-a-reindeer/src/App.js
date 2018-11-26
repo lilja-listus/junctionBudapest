@@ -1,4 +1,4 @@
-  import React, { Component } from 'react';
+import React, { Component } from 'react';
 import { FormGroup, FormControl, InputGroup, Glyphicon, Button } from 'react-bootstrap';
 import './App.css';
 import algoliasearch from 'algoliasearch';
@@ -18,7 +18,7 @@ search(query){
 
 const app = document.getElementById("hits-container");
 var client = algoliasearch('UFI1GERD33', '0f949363e44d09d51dd523165f9f36a0');
-var index = client.initIndex('junction_conferences');
+var index = client.initIndex('conferences');
 var events = new Array();
 index.search(query).then(result=>{
   const hits = result.hits;
@@ -73,7 +73,7 @@ console.log(events);
                 }
               }}
               />
-              <InputGroup.Addon onClick={event => {this.setState({query: event.target.value}) this.search(event.target.value)}}>
+              <InputGroup.Addon onClick={event => {this.setState({query: event.target.value}); this.search(event.target.value)}}>
 
                 <Glyphicon glyph="search"></Glyphicon>
               </InputGroup.Addon>
